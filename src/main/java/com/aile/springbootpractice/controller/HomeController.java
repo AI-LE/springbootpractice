@@ -19,4 +19,10 @@ public class HomeController {
         model.addAttribute("msg", msg);
         return "home";
     }
+
+    @RequestMapping("/login")
+    public String login(Model model){
+        System.out.println("++++++++++++++++++");
+        return "test";
+    }
 }

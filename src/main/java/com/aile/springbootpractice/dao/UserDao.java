@@ -8,6 +8,6 @@ import com.aile.springbootpractice.entity.SysUser;
  */
 
 public interface UserDao {
-    public SysUser findByUserName(String username);
+    SysUser findByUserName(String username);
 }
 
